@@ -1,0 +1,151 @@
+---
+title: "Presentación de Resultados"
+author: "Tomás Péndola y Erick Quezada"
+format:
+  revealjs:
+    theme: [simple]
+    slide-number: true
+    toc: false
+    center: false
+    highlight-style: github
+    transition: fade
+    css: styles.css
+    mainfont: "Fira Sans"
+    code-overflow: wrap
+    incremental: true
+---
+
+# Confianza en medios según posición política
+
+------------------------------------------------------------------------
+
+## Conceptos
+
+::: {style="text-align: justify; font-size: 0.85em; line-height: 1.4;"}
+**Medios de comunicación**: Los medios no solo transmiten información, sino que estructuran el discurso social. Según Teun A. van Dijk (2016), tienen un rol central en la reproducción de ideologías dominantes, operando desde una posición de poder simbólico. A través de la selección y jerarquización de noticias, pueden influir en la percepción pública sobre temas como la seguridad, el conflicto o la política.
+
+En esta línea, autores como Pierre Bourdieu también advierten sobre la "ilusión mediática", donde los medios construyen lo que es percibido como relevante o verdadero, desplazando otras formas de producción simbólica menos visibles.
+:::
+
+------------------------------------------------------------------------
+
+## Conceptos
+
+::: {style="text-align: justify; font-size: 0.85em; line-height: 1.4;"}
+**Orientación política**: Refiere a la posición ideológica subjetiva del individuo respecto del eje izquierda–derecha. Esta orientación incide en cómo las personas interpretan la realidad social, incluido el modo en que confían o desconfían de las instituciones mediáticas.
+
+**Percepción de inseguridad**: Es una construcción subjetiva que puede no corresponder directamente con experiencias reales de victimización. Está influida por discursos mediáticos, discursos políticos y experiencias locales. En contextos donde los medios enfatizan el miedo al delito, las personas con orientación política más conservadora pueden presentar niveles más altos de percepción de inseguridad (Medina et al., 2003).
+:::
+
+------------------------------------------------------------------------
+
+## Hipótesis
+
+::: {style="text-align: justify"}
+Se espera que los encuestados con una tendencia política hacia la derecha y con mayores niveles de confianza en los medios tradicionales presenten también una percepción más elevada de inseguridad en sus barrios.
+:::
+
+------------------------------------------------------------------------
+
+## Variables
+
+::: {style="text-align: justify"}
+Se utilizó la base de datos **ELSOC 2023**, seleccionando las siguientes variables:
+
+-   **Posición política** (`r13_ideol_01`)
+-   **Confianza en medios tradicionales** (`c05_12`)
+-   **Percepción de inseguridad en el barrio de residencia** (`t10_p`)
+:::
+
+------------------------------------------------------------------------
+
+## Distribución de orientación política
+
+:::::: columns
+:::: {.column width="50%"}
+::: {style="text-align: justify"}
+La distribución muestra que un 13,7% de los encuestados se identifica con la derecha, un 7,4% con el centro, un 18,7% con la izquierda, y un 60,1% declara no tener una posición política definida.
+:::
+::::
+
+::: {.column width="50%"}
+![](https://github.com/TomasPendola/Trabajo-2-Pendola-Quezada/blob/main/Trabajo_2_files/figure-html/Grafico%20n%C2%B01%20Orientacion%20politica-1.png?raw=true)
+:::
+::::::
+
+------------------------------------------------------------------------
+
+## Distribución de confianza en los medios tradicionales
+
+:::::: columns
+:::: {.column width="50%"}
+::: {style="text-align: justify; font-size: 0.8em; line-height: 1.4"}
+El gráfico muestra que la mayoría de los encuestados manifiesta bajos niveles de confianza en los medios de comunicación tradicionales, concentrándose principalmente entre los niveles 1 y 3 de la escala.
+:::
+::::
+
+::: {.column width="50%"}
+![](https://github.com/TomasPendola/Trabajo-2-Pendola-Quezada/blob/main/Trabajo_2_files/figure-html/Grafico%20n%C2%B02%20Confianza%20en%20los%20Medios%20Tracionales-1.png?raw=true)
+:::
+::::::
+
+------------------------------------------------------------------------
+
+## Percepción de seguridad en el barrio
+
+:::::: columns
+:::: {.column width="50%"}
+::: {style="text-align: justify"}
+La percepción de seguridad entre los encuestados varía, pero se observa una media de 3.53 en una escala de 1 a 5, lo que sugiere un nivel relativamente alto de seguridad percibida en los barrios.
+:::
+::::
+
+::: {.column width="50%"}
+![](https://github.com/TomasPendola/Trabajo-2-Pendola-Quezada/blob/main/Trabajo_2_files/figure-html/Grafico_n3_Percepcion_seguridad_barrio-1.png?raw=true)
+:::
+::::::
+
+------------------------------------------------------------------------
+
+## Confianza en los medios según posición política
+
+:::::: columns
+:::: {.column width="50%"}
+::: {style="text-align: justify; font-size: 0.8em; line-height: 1.4"}
+El gráfico compara los niveles de confianza en medios tradicionales según la orientación política. Se observa que, aunque todos los grupos muestran niveles bajos, los encuestados identificados con la derecha tienden a comenzar en niveles ligeramente más altos que los otros grupos.
+:::
+::::
+
+::: {.column width="50%"}
+![](https://github.com/TomasPendola/Trabajo-2-Pendola-Quezada/blob/main/Trabajo_2_files/figure-html/Grafico%20n%C2%B04%20Ideologia%20x%20confiazna-1.png?raw=true)
+:::
+::::::
+
+------------------------------------------------------------------------
+
+## Escala de confianza en medios por posición política
+
+:::::: columns
+:::: {.column width="50%"}
+::: {style="text-align: justify; font-size: 0.8em; line-height: 1.4"}
+Aunque podría pensarse en combinar las variables en una única escala, estas representan dimensiones conceptualmente distintas. Por tanto, metodológicamente no es apropiado construir una escala compuesta entre ellas.
+:::
+::::
+
+::: {.column width="50%"}
+![](https://github.com/TomasPendola/Trabajo-2-Pendola-Quezada/blob/main/Trabajo_2_files/figure-html/Grafico%20de%20la%20escala%20%20-1.png?raw=true)
+:::
+::::::
+
+------------------------------------------------------------------------
+
+## Hallazgos principales
+
+::: {style="text-align: justify; font-size: 0.8em; line-height: 1.4"}
+-   No se encontró evidencia sólida de una correlación fuerte entre confianza en los medios y orientación política.
+-   La mayoría de los encuestados declara no tener una posición política, lo que podría estar influyendo en la debilidad de la relación observada.
+-   Se sugiere complementar este análisis con modelos de regresión lineal o logística, que permitan examinar con mayor precisión el posible efecto combinado de las variables.
+-   El fenómeno parece más complejo de lo que una asociación simple puede capturar, por lo que se recomienda profundizar en futuros estudios.
+:::
+
+# ¡Gracias!
