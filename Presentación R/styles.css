@@ -1,0 +1,46 @@
+.reveal p {
+  text-align: justify;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.reveal h1 {
+  font-size: 1.7em;
+}
+
+.reveal h2 {
+  font-size: 1.4em;
+  color: #004d40;
+}
+
+.reveal .columns {
+  margin-top: 10px;
+}
+
+.reveal .slide-number {
+  font-size: 0.7em;
+  color: #666;
+}
+
+section.small-text,
+section.small-text p,
+section.small-text div,
+section.small-text .column {
+  font-size: 0.75em !important;
+  line-height: 1.4;
+}
+
+.reveal {
+  background: linear-gradient(135deg, #a0e7e5, #b4f8c8);
+  color: #004d40;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal p,
+.reveal li {
+  color: #004d40;
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+}
+
+
